@@ -1,0 +1,16 @@
+Overall Process
+
+The five essential tasks to complete the Course Project are as follows.
+
+Merges the training and the test sets to create one data set.
+Extracts only the measurements on the mean and standard deviation for each measurement.
+Uses descriptive activity names to name the activities in the data set
+Appropriately labels the data set with descriptive variable names.
+Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+These five steps will be accomplished via the process described below. Readers should also examine the codebook, and the full comments in the run_analysis.R file.
+
+First, I downloaded the files and saved it into my working directory
+Then I then merge the two raw data tables together.
+Merged and extract only the measurements.
+I read the set of activity labels from the activity_labels.txt file, then convert the labe codes to a factor that can be then transformed into a text string.
+Finally, I bind the subject and activity to the filteredActivityData dataset.
